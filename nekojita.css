@@ -1,0 +1,540 @@
+
+
+body {
+    margin: 100;
+    padding: 100;
+    font-family: 'Krona One'; /* Asegúrate de incluir una fuente de respaldo */
+    cursor: url('logo2transparente.png'), auto; /* Ruta a la imagen del logo */
+}
+
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+/* Estilos del header */
+header {
+
+    background-image: url('portadaCOLOR.png');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    padding-top: 120px;   
+   }
+   
+
+
+
+
+
+
+header .menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+header .logo-y-menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 500px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción original del logo */
+    margin-right: 20px; /* Añade un margen si es necesario para el espaciado */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(251, 252, 253);
+}
+
+
+
+header .boton a, .botones a, #discografia a {
+    background: orange;
+    color: #000;
+    padding: 20px 40px;
+    line-height: 50px;
+    display: inline-block; /* Asegura que el botón se renderice correctamente */
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+header .titular {
+    margin-top: 30vh;
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    width: 80%;
+}
+
+span.amarillo {
+    color: orange;
+}
+
+.blanco {
+    background: #fff !important;
+}
+
+#discografia {
+    background: #000;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#discografia h4 {
+    margin: 0;
+    color: orange;
+    border: 1px solid yellow;
+    width: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#discografia .contenedor {
+    display: flex;
+    align-items: center;
+}
+
+#discografia span {
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+#discografia h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#discografia p {
+    font-size: 14px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+#discografia img {
+    width: 100%;
+    transform: rotate(360deg); /* Rota la imagen 360 grados */
+    transition: transform 0.5s; /* Añade una transición suave */
+    margin-left: 50px; /* Mueve la imagen hacia la derecha */
+    display: inline-block; /* Asegura que la imagen se comporte correctamente en línea */
+}
+
+#discografia .texto {
+    width: 50%;
+}
+
+#discografia .foto {
+    width: 40%;
+    margin-left: 50px; /* Mueve la imagen hacia la derecha */
+}
+
+.contenedor-textos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-izquierda, .texto-derecha {
+    width: 48%;
+}
+
+#about h4 {
+    margin: 0;
+    color: orange;
+    border: 1px solid yellow;
+    width: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#about p, #tour p, footer p {
+    font-family: 'Jost';
+}
+
+.negro {
+    background: #aaa !important;
+}
+
+#about {
+    padding: 100px 0;
+}
+
+#tour {
+    background: rgb(15, 100, 175);
+    padding: 100px 0;
+}
+
+
+#tour .contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tour img {
+    width: 100%;
+}
+
+#tour .texto {
+    width: 50%;
+}
+
+#tour .imagen {
+    width: 40%;
+    position: relative;
+    top: -170px;
+}
+
+#tour h4 {
+    margin: 0;
+    color: yellow;
+    border: 1px solid black;
+    width: 70px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+
+
+
+
+
+.fechas {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 60px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.35);
+    padding-bottom: 30px;
+}
+
+.fechas .numero {
+    font-size: 34px;
+}
+
+.fechas h5, .fechas p {
+    margin: 0;
+}
+
+.fechas h5 {
+    font-size: 20px;
+}
+
+.fechas a {
+    background: #fff;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+
+
+.background-container {
+    background-image: url('puerta chile.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200vh;
+    position: relative;
+}
+
+
+.photo-container {
+    position: absolute;
+    width: 80%; /* Ajusta el tamaño del contenedor de fotos */
+    height: 80%; /* Ajusta el tamaño del contenedor de fotos */
+    top: 10%; /* Ajusta la posición del contenedor de fotos */
+    left: 10%; /* Ajusta la posición del contenedor de fotos */
+     
+
+
+}
+
+.fototitulo {
+    
+        width: 50%; /* Ajusta el ancho de la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+        position: absolute;
+        top: -5%; /* Ajusta la posición desde la parte superior */
+        left: 25%; /* Ajusta la posición desde la izquierda */
+        transform: translateX(-50%); /* Centra la imagen horizontalmente */
+        transform: rotate(-5deg); /* Mantiene la rotación de la imagen */
+    
+}
+
+
+
+
+
+.photo {
+    position: absolute;
+    width: 250px; /* Ajusta el tamaño según necesites */
+    transition: transform 0.3s;
+}
+
+
+.photo1 {
+     top: 10%;
+    left: 10%;
+    transform: rotate(-35deg);
+}
+
+
+
+
+.photo2 {
+    top: 35%;
+    left: 50%;
+    transform: rotate(10deg);
+}
+
+
+.photo3 {
+    top: 90%;
+    left: 30%;
+    transform: rotate(-5deg);
+}
+
+.photo4 {
+    top: 70%;
+    left: 70%;
+    transform: rotate(5deg);
+}
+
+.photo5 {
+    top: 35%;
+    left: 35%;
+    transform: rotate(5deg);
+
+}
+
+.photo6 {
+    top: 55%;
+    left: 75%;
+    transform: rotate(5deg);
+
+}
+
+.photo7 {
+    top: 65%;
+    left: 5%;
+    transform: rotate(5deg);
+
+}
+
+
+
+
+
+
+.tokes h2{
+    color: rgba(10, 135, 237, 0.761);
+}
+
+ .toke4 { width: 100%;
+     height: 100%;
+     background: url('toke4.jpg') no-repeat center center;
+      background-size: cover;
+        position: relative;
+         display: flex;
+          flex-direction: column;
+           align-items: center;
+            justify-content: center;
+             text-align: center;
+              z-index: 1;
+              top: 100%;
+              
+             
+            }
+            
+              .toke3 { width: 100%;
+                height: 100%;
+                background: url('toke3.jpg') no-repeat center center;
+                 background-size: cover;
+                   position: relative;
+                    display: flex;
+                     flex-direction: column;
+                      align-items: center;
+                       justify-content: center;
+                        text-align: center;
+                         z-index: 1;}
+
+                         .toke2 { width: 100%;
+                            height: 100%;
+                            background: url('toke2.jpg') no-repeat center center;
+                             background-size: cover;
+                               position: relative;
+                                display: flex;
+                                 flex-direction: column;
+                                  align-items: center;
+                                   justify-content: center;
+                                    text-align: center;
+                                     z-index: 1;}
+
+                                     .toke1 { width: 100%;
+                                        height: 100%;
+                                        background: url('toke1.jpg') no-repeat center center;
+                                         background-size: cover;
+                                           position: relative;
+                                            display: flex;
+                                             flex-direction: column;
+                                              align-items: center;
+                                               justify-content: center;
+                                                text-align: center;
+                                                 z-index: 1;}
+                                   
+                       
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 60px 0;
+}
+
+footer .redes i {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+@media (max-width: 800px) {
+    header .menu {
+        flex-direction: column;
+    }
+
+    header .logo-y-menu {
+        justify-content: space-between;
+    }
+
+    nav {
+        background: yellow;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: none;
+    }
+
+    nav ul li {
+        color: #000;
+    }
+
+    nav ul li {
+        margin-bottom: 20px;
+    }
+
+    .boton {
+        margin-top: 220px;
+        display: none;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    header .titular {
+        margin-top: 19vh;
+    }
+
+    h2 {
+        font-size: 27px !important;
+    }
+
+    #discografia .contenedor {
+        flex-direction: column;
+    }
+
+    #discografia .texto {
+        width: 100%;
+    }
+
+    #discografia .foto {
+        width: 82%;
+        margin-top: 20px;
+    }
+
+    .contenedor-textos {
+        flex-direction: column;
+    }
+
+    header .boton a, .botones a, #discografia a {
+        background: yellow;
+        color: #000;
+        padding: 14px 19px;
+        line-height: 50px;
+        font-size: 13px;
+    }
+
+    #tour .contenedor {
+        flex-direction: column;
+    }
+
+    #tour .imagen {
+        width: 65%;
+        position: relative;
+        top: -27px;
+    }
+
+    #tour .texto {
+        width: 100%;
+    }
+
+    .fechas {
+        flex-direction: column;
+    }
+
+    .fechas div {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
